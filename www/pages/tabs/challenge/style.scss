@@ -1,0 +1,39 @@
+@import "scss/base";
+
+#gre-challenge {
+  .card {
+    &.challenge-card {
+      .card-body {
+        border: none;
+        padding: px(42) px(24);
+        background-color: transparent;
+        h1 {
+          font-weight: normal;
+          color: white;
+          font-size: px(20);
+          margin: 0;
+        }
+        p {
+          color: white;
+        }
+        .info {
+          position: absolute;
+          right: px(24);
+          text-align: right;
+          bottom: px(8);
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    &#unfamiliar{
+      background-color: #F18787;
+    }
+    &#all-word{
+      background-color: #7BB5CC;
+    }
+  }
+}
+

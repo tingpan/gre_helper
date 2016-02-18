@@ -1,0 +1,55 @@
+<ion-view id="gre-cards" ng-attr-title="{{title}}" class="main-view">
+  <ion-nav-buttons>
+    <button class="button button-clear button-icon icon ion-ios-arrow-back" ng-click="goBack()"> Lists</button>
+  </ion-nav-buttons>
+  <ion-content scroll="false" ng-click="flip()">
+
+    <div id="placeholder"></div>
+
+    <div class="flip" id="my-word-card" ng-repeat="card in cards" ng-init="color = colorIndex(10)">
+      <div ng-if="!card.prize" class="word-card" ng-class="{'flipped':isFlipped}">
+        <div class="face front color-{{color}}">
+         {{card.w}}
+        </div>
+        <div class="face back">
+          <div class="text-wrapper">
+            <p class="meaning-e">
+              『 {{card.e}} 』
+            </p>
+            <p class="example-s"> {{card.s}} </p>
+            <p class="meaning-c"> {{card.c}} </p>
+          </div>
+          <div class="button button-full pass" ng-click="nextWord($event)">
+            <i class="icon ion-checkmark-round"></i>
+          </div>
+          <div class="button button-full fail" ng-click="newWord($event)">
+            <i class="icon ion-close-round"></i>
+          </div>
+        </div>
+      </div>
+
+      <div ng-if="card.prize" class="word-card" ng-class="{'flipped':isFlipped}">
+        <div class="face front color-{{color}} prize" ng-style="{'background-image': 'url(' + card.p + ')'}">
+
+        </div>
+        <div class="face back prize">
+          <div class="text-wrapper">
+            <p class="meaning-e">
+              『 {{card.d}} 』
+            </p>
+            <p class="example-s"> {{card.s}} </p>
+          </div>
+          <div class="button button-full prize" ng-click="nextWord($event)">
+            <i class="icon ion-social-octocat"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="progress" ng-init="color = colorIndex(3)">
+      <p class="tag">{{data.used.length}}/{{data.used.length + data.deck.length}}</p>
+      <div class="progress-bar color-{{color}}" ng-style="{width: (data.used.length/(data.used.length + data.deck.length) * 100)+'%'}"></div>
+    </div>
+
+  </ion-content>
+</ion-view>

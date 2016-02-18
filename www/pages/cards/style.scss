@@ -1,0 +1,194 @@
+@import "scss/base";
+
+#gre-cards{
+  #placeholder{
+    margin: px(50) auto 0 auto;
+    height: px(250);
+    -webkit-transition: 0.5s;
+  }
+  .flip {
+    width: 100%;
+    -webkit-perspective: 800;
+    margin: px(50) auto 0 auto;
+    position: absolute;
+    top: 0;
+
+    &.ng-enter {
+      -webkit-animation: fadeInRight 400ms;
+      animation: fadeInRight 400ms;
+    }
+
+    &.ng-leave {
+      -webkit-animation: fadeOutLeft 400ms;
+      animation: fadeOutLeft 400ms;
+    }
+
+    .word-card {
+      -webkit-transform-style: preserve-3d;
+      -webkit-transition: 0.5s;
+      width: 92%;
+      margin: auto;
+
+      &.flipped {
+        -webkit-transform: rotatey(-180deg);
+      }
+
+
+      .face {
+        position: absolute;
+        width: 100%;
+        -webkit-backface-visibility: hidden;
+        z-index: 2;
+        border-radius: px(8);
+        overflow: hidden;
+      }
+
+      .front {
+        z-index: 1;
+        color: white;
+        font-size: px(30);
+        text-align: center;
+        font-family: "American Typewriter";
+        font-weight: normal;
+        line-height: px(250);
+        height: px(250);
+
+        &.color-0{
+          background: #878289;
+        }
+
+        &.color-1{
+          background: #81CBD7;
+        }
+
+        &.color-2{
+          background: #DFA341;
+        }
+
+        &.color-3{
+          background: #98BD5A;
+        }
+
+        &.color-4{
+          background: #FF8695;
+        }
+
+        &.color-5{
+          background: #59D5AD;
+        }
+
+        &.color-6{
+          background: #E96B56;
+        }
+
+        &.color-7{
+          background: #BCCE40;
+        }
+
+        &.color-8{
+          background: #A490BC;
+        }
+
+        &.color-9{
+          background: #598DD5;
+        }
+
+        &.prize{
+          @include adjust-bg;
+        }
+      }
+
+      .back{
+        -webkit-transform: rotatey(-180deg);
+        background: #F4F4F4;
+        color: black;
+        cursor: pointer;
+
+        .text-wrapper{
+          padding: px(35) px(20) px(20) px(20);
+        }
+        .meaning-e{
+          font-size: px(20);
+          font-weight: bold;
+          padding: px(15) 0 px(5) 0;
+        }
+        .example-s {
+          font-size: px(16);
+        }
+        .meaning-c{
+          font-family: "Heiti SC";
+        }
+
+        &.prize{
+          .text-wrapper{
+            padding: px(50) px(20);
+            line-height: 220%;
+            font-family: "Heiti SC";
+          }
+        }
+
+        .button{
+          text-align: center;
+          width: 100%;
+          color: white;
+          border-radius: 0;
+          .icon:before {
+            line-height: px(64);
+          }
+
+          &.pass{
+            background-color: #9CDDB0;
+            &.activated{
+              background-color: darken(#9CDDB0, 10%);
+            }
+          }
+
+          &.fail{
+            background-color: #EA7C8A;
+            &.activated{
+              background-color: darken(#EA7C8A, 10%);
+            }
+          }
+
+          &.prize{
+            background-color: #A490BC;
+            &.activated{
+              background-color: darken(#A490BC, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .progress{
+    width: 100%;
+    height: px(30);
+    margin: px(40) auto 0 auto;
+    background-color: #373740;
+
+    .tag{
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      line-height: px(30);
+      color: white;
+    }
+
+    .progress-bar{
+      width: 100%;
+      height: 100%;
+      -webkit-transition: 0.5s;
+      &.color-0{
+        background: linear-gradient(to right, #D6739E, #77A6DD);
+      }
+      &.color-1{
+        background: linear-gradient(to right, #FD9087, #A9CA9D);
+      }
+      &.color-2{
+        background: linear-gradient(to right, #D8C587, #D09FDB);
+      }
+    }
+  }
+}
+

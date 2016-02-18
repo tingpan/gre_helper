@@ -1,0 +1,58 @@
+@import "scss/base";
+
+#gre-list{
+  .card{
+    &.v-list-card{
+      border-radius: px(8);
+      .card-body{
+        border: none;
+        padding: px(42) px(24);
+        background-color: transparent;
+        input[type="text"]{
+          background-color: transparent;
+          color: white;
+          font-size: px(24);
+          margin: 0;
+        }
+        p{
+          color: white;
+        }
+        .info{
+          position: absolute;
+          right: px(24);
+          text-align: right;
+          bottom: px(8);
+          p{
+            margin: 0;
+          }
+        }
+        &.color-0{
+          background-color: #F26B75;
+        }
+        &.color-1{
+          background-color: #EAAB61;
+        }
+        &.color-2{
+          background-color: #9CDDB0;
+        }
+        &.color-3{
+          background-color: #7FCBDE;
+        }
+        &.color-4{
+          background-color: #887FDE;
+        }
+        &.color-5{
+
+          background-color: #F58B76;
+        }
+        &.color-6{
+          background-color: #7F9BDE;
+        }
+      }
+      .card-foot{
+        height: px(20);
+        background-color: white;
+      }
+    }
+  }
+}

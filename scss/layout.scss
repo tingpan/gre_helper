@@ -1,0 +1,97 @@
+@import 'base';
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+ion-nav-view.view-container{
+  opacity:1!important;
+  &[nav-view="cached"] {
+    @include animation(zoomOutLeft 400ms ease);
+    display:block!important;
+    z-index: 1;
+  }
+  &[nav-view="active"] {
+    @include animation(zoomInRight 400ms ease);
+    z-index: 3;
+  }
+}
+
+ion-tabs, ion-view.pane.main-view{
+  opacity:1!important;
+  &[nav-view="cached"] {
+    @include animation(fadeOutLeft 400ms ease);
+    display:block!important;
+    z-index: 1;
+  }
+  &[nav-view="active"] {
+    @include animation(fadeInRight 400ms ease);
+    z-index: 3;
+  }
+}
+
+ion-view {
+  background-color: $background-color;
+  &.pane{
+    background-color: $background-color;
+  }
+}
+
+ion-side-menu-content{
+  background-color: $background-color;
+  &.pane{
+    background-color: $background-color;
+  }
+}
+
+ion-tabs{
+  background-color: $background-color;
+  &.pane{
+    background-color: $background-color;
+  }
+}
+
+.bar.bar-dark.bar-gre{
+  background-color: $background-color;
+  border-bottom: solid px(1) #533F46;
+
+  .title{
+    font-weight: normal;
+  }
+}
+
+.tabs-dark.tabs-gre{
+  .tab-nav{
+    border: none;
+    background-image: none;
+    background-color: #423142;
+  }
+  .tab-item {
+    max-width: px(187);
+    color: #FFEBEB;
+    opacity: 0.5;
+
+    &.tab-item-active{
+      opacity: 1;
+    }
+  }
+
+}

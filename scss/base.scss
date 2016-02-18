@@ -1,0 +1,136 @@
+$background-color: #292931;
+$text-color: #ffffff;
+$tab-background: #423142;
+
+$secondary-head: #424242;
+$text-secondary: #616161;
+$list-background: #E0E0E0;
+$selected-color: rgb(255,96,91);
+
+// helper function for converting px to rem, rem is more accurate in display font
+@function px($pxs) {
+  $rems: ();
+  @for $i from 1 through length($pxs) {
+    $px: nth($pxs, $i);
+    $rem: 0;
+    @if ($px != 0) {
+      $rem: $px / $rem-base * 1rem;
+    }
+    $rems: append($rems, $rem)
+  }
+
+  @return $rems;
+}
+
+// default size
+$rem-base: 12;
+$font-size: $rem-base * 1px;
+
+$padding-side: px(15);
+
+// clear float
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// hide long text
+@mixin truncate-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// center middle
+@mixin vertical-align{
+  &:before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 0;
+  }
+}
+
+@mixin adjust-bg{
+  background: #c0c0c0 no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($columns: initial) {
+  -webkit-flex: $columns;
+  -moz-flex: $columns;
+  -ms-flex: $columns;
+  flex: $columns;
+}
+
+@mixin flex-order($val) {
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
+  order: $val;
+}
+
+@mixin flex-direction($direction: row) {
+  -webkit-flex-direction: $direction;
+  -moz-flex-direction: $direction;
+  -ms-flex-direction: $direction;
+  flex-direction: $direction;
+}
+
+@mixin flex-justify-content($justify: flex-start) {
+  -webkit-justify-content: $justify;
+  -moz-justify-content: $justify;
+  -ms-justify-content: $justify;
+  justify-content: $justify;
+}
+
+@mixin align-content($align: stretch) {
+  -webkit-align-content: $align;
+  -moz-align-content: $align;
+  -ms-align-content: $align;
+  align-content: $align;
+}
+
+@mixin align-items($align: stretch) {
+  -webkit-align-items: $align;
+  -moz-align-items: $align;
+  -ms-align-items: $align;
+  align-items: $align;
+}
+
+@mixin align-self($align: auto) {
+  -webkit-align-self: $align;
+  -moz-align-self: $align;
+  -ms-align-self: $align;
+  align-self: $align;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow:$top $left $blur $color #{$inset};
+  -moz-box-shadow:$top $left $blur $color #{$inset};
+  box-shadow:$top $left $blur $color #{$inset};
+}
+
+@mixin adjust-bg{
+  background: #c0c0c0 no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
