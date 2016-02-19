@@ -40,7 +40,7 @@ angular.module('greHelper.services').factory 'DeckService', () ->
       flush()
       word =
         prize: true
-        p: "/img/prize/#{Math.floor(Math.random() * 36) + 2}.pic.jpg"
+        p: "./img/prize/#{Math.floor(Math.random() * 36) + 2}.pic.jpg"
         d: "喵喵喵喵喵喵喵喵,看了这么多单词了,就准许你看一眼朕吧!"
     word
 
