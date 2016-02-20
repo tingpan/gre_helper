@@ -510,6 +510,68 @@ do ->
       s: "It's a ​curious paradox that ​drinking a lot of ​water can often make you ​feel ​thirsty."
       c: "悖论"
 
+    74:
+      w: "vindictive"
+      a: "adj"
+      e: "having or ​showing a ​wish to ​harm someone because you ​think that they ​harmed you; ​unwilling to ​forgive"
+      s: "In the ​movie 'Cape Fear', a lawyer's ​family is ​threatened by a vindictive ​former ​prisoner."
+      c: "有复仇倾向的"
+
+    75:
+      w: "decry"
+      a: "vt"
+      e: "to ​criticize something as ​bad, without ​value, or ​unnecessary"
+      s: "Lawyers decried the ​imprisonment of several ​journalists."
+      c: "强烈反对,否定"
+
+    76:
+      w: "prophetic"
+      a: "adj"
+      e: "saying ​correctly what will ​happen in the ​future"
+      s: "Much of Orwell's writing now ​seems ​grimly prophetic."
+      c: "预言的"
+
+    77:
+      w: "euphemism"
+      a: "n"
+      e: "a word or phrase used to ​avoid saying an ​unpleasant or ​offensive word"
+      s: "'Senior ​citizen' is a euphemism for 'old ​person'."
+      c: "委婉的说辞"
+
+    78:
+      w: "sound"
+      a: "adj"
+      e: "not ​broken or ​damaged; ​healthy; in good ​condition"
+      s: "It's an ​old ​building but it's still ​structurally sound."
+      c: "强壮,健全的"
+
+    79:
+      w: "absurd"
+      a: "adj"
+      e: "stupid and ​unreasonable, or ​silly in a ​humorous way"
+      s: "What an absurd thing to say! Don't be so absurd! Of ​course I ​want you to come."
+      c: "荒诞不合情理的"
+
+    80:
+      w: "atone"
+      a: "vi"
+      e: "to do something that ​shows you are ​sorry for something ​bad that you did or for something that you ​failed to do"
+      s: "The ​director of the ​company has ​expressed a ​wish to atone for her past ​sins."
+      c: "弥补赎罪"
+
+    81:
+      w: "ordeal"
+      a: "n"
+      e: "a very ​unpleasant and ​painful or ​difficult ​experience."
+      s: "The ​hostages' ordeal came to an end when ​soldiers ​stormed the ​building."
+      c: "严峻的考研"
+
+    82:
+      w: "decant"
+      a: "vt"
+      e: "to ​pour a ​liquid from one ​container into another"
+      c: "缓缓倒出"
+
   angular.extend(wordDB, list_1)
   console.log wordDB
 
