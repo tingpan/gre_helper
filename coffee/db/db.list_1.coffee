@@ -447,6 +447,69 @@ do ->
       s: "The ​planet ​Jupiter ​contains ​large ​amounts of the primordial ​gas and ​dust out of which the ​solar ​system was ​formed."
       c: "最初的,最原始的"
 
+    66:
+      w: "disenchant"
+      a: "adj"
+      e: "no ​longer ​believing in the ​value of something, ​especially having ​learned of the ​problems with it"
+      s: "Many ​voters have ​become disenchanted with the ​president."
+      c: "使清醒"
+
+    67:
+      w: "incantation"
+      a: "n"
+      e: "words that are ​believed to have a ​magical ​effect when ​spoken or ​sung"
+      s: "Around the ​fire, ​tribal ​elders ​chanted incantations"
+      c: "咒语"
+
+    68:
+      w: "recant"
+      a: "vt"
+      e: "to ​announce in ​public that ​your past ​beliefs or ​statements were ​wrong and that you no ​longer ​agree with them"
+      s: "After a ​year ​spent in ​solitary ​confinement, he ​publicly recanted."
+      c: "撤回"
+
+    69:
+      w: "incentive"
+      a: "n"
+      e: "something that ​encourages a ​person to do something"
+      s: "Tax incentives have been very ​effective in ​encouraging ​people to ​save and ​invest more of ​their ​income."
+      c: "刺激"
+
+    70:
+      w: "doctrinaire"
+      a: "adj"
+      e: "based on and ​following ​fixed ​beliefs ​rather than ​considering ​practical ​problems"
+      s: "He has a ​somewhat doctrinaire ​approach to ​running the ​company."
+      c: "照本宣科的"
+
+    71:
+      w: "indoctrinate"
+      a: "adj"
+      e: "to often ​repeat an ​idea or ​belief to someone in ​order to ​persuade them to ​accept it"
+      s: "Some ​parents were ​critical of ​attempts to indoctrinate ​children in ​green ​ideology."
+      c: "灌输"
+
+    72:
+      w: "heterodox"
+      a: "adj"
+      e: "different to and ​opposing ​generally ​accepted ​beliefs or ​standard"
+      s: "His ​opinions have always been ​distinctly heterodox."
+      c: "非传统的"
+
+    73:
+      w: "orthodox"
+      a: "adj"
+      e: "​considered ​traditional, ​normal, and ​acceptable by most ​people"
+      s: ""
+      c: "传统的"
+
+    73:
+      w: "paradox"
+      a: "n"
+      e: "a ​situation or ​statement that ​seems ​impossible or is ​difficult to ​understand because it ​contains two ​opposite ​facts or ​characteristics."
+      s: "It's a ​curious paradox that ​drinking a lot of ​water can often make you ​feel ​thirsty."
+      c: "悖论"
+
   angular.extend(wordDB, list_1)
   console.log wordDB
 

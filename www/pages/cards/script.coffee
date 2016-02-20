@@ -37,6 +37,6 @@ angular.module 'greHelper.controllers'
       $('#placeholder').css('height', height)
       return 0
 
-    DeckService.init([1..20])
+    DeckService.init([1..65])
 
     $scope.cards = [DeckService.next()]
