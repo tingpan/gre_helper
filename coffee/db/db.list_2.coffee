@@ -573,5 +573,4 @@ do ->
 #      c: "缓缓倒出"
 
   angular.extend(wordDB, list_2)
-  console.log wordDB
 

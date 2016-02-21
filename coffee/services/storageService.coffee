@@ -10,12 +10,12 @@ class DBError extends Error
 angular.module('greHelper.services').factory 'StorageService', ($rootScope, $cordovaSQLite, $q, $log) ->
   logTag = "StorageService"
   schema =
-    list: "id integer primary key, name text, fid integer, tid integer, ftimes integer, last_finished_times TEXT"
+    list: "id integer primary key, name text, fid integer, tid integer, ftimes integer, last_finished_times text"
     review: "id integer primary key, vid integer, vtimes integer"
 
   initDb = ->
     createTask = Object.keys(schema).map (tableName) ->
-      drop("tags")
+      drop(tableName)
       create(tableName)
     $q.all(createTask)
 

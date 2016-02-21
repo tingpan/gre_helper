@@ -24,7 +24,8 @@ routerConfigure = ($stateProvider, $urlRouterProvider) ->
         controller: 'ChallengeCtrl'
 
   .state 'cards',
-    url: '/cards'
+    url: '/cards/:list'
+    cache: false
     views:
       'tpl-view':
         templateUrl: 'pages/cards/template.html'

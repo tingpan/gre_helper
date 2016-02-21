@@ -6,6 +6,7 @@ angular.module('greHelper.services').factory 'DeckService', () ->
 
   init = (cards) ->
     d.deck = cards
+    d.used = []
     flush()
 
   flush = ->

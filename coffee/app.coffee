@@ -18,8 +18,11 @@ angular.module('greHelper', ['ionic','ngCordova', 'greHelper.controllers','greHe
       $rootScope.db = $cordovaSQLite.openDB('gre-helper.db', 1)
       $log.debug "open sqlite db"
     else
-      $rootScope.db = window.openDatabase('gre-helper', '1.0', 'my.db', 1024 * 1024)
+      $rootScope.db = window.openDatabase('gre-helper', '1.0', 'gre-helper.db', 1024 * 1024)
       $log.debug "open window db"
 
     StorageService.initDb()
+    .then (res) ->
+      console.log res
+
 

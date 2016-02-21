@@ -1,7 +1,7 @@
 <ion-view id="gre-challenge" ng-attr-title="{{title}}" >
   <ion-content>
 
-    <div class="card challenge-card" id="unfamiliar" ui-sref="cards">
+    <div class="card challenge-card" id="unfamiliar" ng-click="goCards()">
       <div class="item item-text-wrap card-body">
         <h1>New Words Challenge</h1>
         <p>50 words</p>
@@ -9,7 +9,7 @@
       <div class="card-foot"></div>
     </div>
 
-    <div class="card challenge-card" id="all-word" ui-sref="cards">
+    <div class="card challenge-card" id="all-word" ng-click="goCards()">
       <div class="item item-text-wrap card-body">
         <h1>All Words Challenge</h1>
         <p>50 words</p>
