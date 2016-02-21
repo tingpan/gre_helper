@@ -8,7 +8,7 @@ angular.module('greHelper.services').factory 'ListService', (StorageService) ->
     {
       name: "List 2"
       fid: 83
-      tid: 111
+      tid: 120
     }
   ]
 

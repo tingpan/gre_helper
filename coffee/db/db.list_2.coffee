@@ -200,70 +200,69 @@ do ->
       e: "done ​secretly, without anyone ​seeing or ​knowing"
       s: "She ​seemed to be ​listening to what I was saying, but I couldn't ​help ​noticing her surreptitious ​glances at the ​clock."
       c: "偷偷摸摸的,秘密的"
-#
-#    30:
-#      w: "provoke"
-#      a: "vt"
-#      e: "to ​cause a ​reaction, ​especially a ​negative one. make angry"
-#      s: "The ​prospect of ​increased ​prices has already provoked an ​outcry. It was a vicious-looking ​dog and I didn't ​want to provoke it."
-#      c: "激起,激怒"
-#
-#    31:
-#      w: "revoke"
-#      a: "vt"
-#      e: "to say ​officially that an ​agreement, ​permission, a ​law, etc. is no ​longer in ​effect."
-#      s: "The ​authorities have revoked ​their ​original ​decision to ​allow ​development of this ​rural ​area."
-#      c: ""
-#
-#    32:
-#      w: "denounce"
-#      a: "vt"
-#      e: "to ​criticize something or someone ​strongly and ​publicly"
-#      s: "The government's ​economic ​policy has been denounced on all ​sides."
-#      c: "公开指责"
-#
-#    33:
-#      w: "renounce"
-#      a: "vt"
-#      e: "to say ​formally or ​publicly that you no ​longer own, ​support, ​believe in, or have a ​connection with something"
-#      s: "Her ​ex-husband renounced his ​claim to the ​family ​house."
-#      c: "真是放弃,宣布与...决裂"
-#
-#    34:
-#      w: "enunciate"
-#      a: "vt,vi"
-#      e: "to ​pronounce words or ​parts of words ​clearly,o express and ​explain a ​plan or ​principle ​clearly or ​formally"
-#      s: "In the ​speech, the ​leader enunciated his party's ​proposals for ​tax ​reform. enunciate clearly"
-#      c: "公开宣布,清晰地说"
-#
-#    35:
-#      w: "verbatim"
-#      a: "adv"
-#      e: "using ​exactly the same words as were ​originally used"
-#      s: "She had an ​amazing ​memory and could ​recall verbatim ​quite ​complex ​conversations."
-#      c: "一字不差地"
-#
-#    36:
-#      w: "verbose"
-#      a: "adj"
-#      e: "using or ​containing more words than are ​necessary"
-#      s: "a verbose ​explanation/​report/​speech/​style"
-#      c: "冗长"
-#
-#    37:
-#      w: "reverberate"
-#      a: "vi"
-#      e: "If a ​loud, ​deep ​sound reverberates, it ​continues to be ​heard around an ​area, so that the ​area ​seems to ​shake."
-#      s: "The ​narrow ​street reverberated with/to the ​sound of the workmen's ​drills."
-#      c: "回荡,回响"
-#
-#    38:
-#      w: "inexorable"
-#      a: "adj"
-#      e: "continuing without any ​possibility of being ​stopped"
-#      s: "the inexorable ​progress of ​science"
-#      c: "难以阻止的"
-#
+
+    112:
+      w: "tractable"
+      a: "vt"
+      e: "​easily ​dealt with, ​controlled, or ​persuaded."
+      s: "The ​problem ​turned out to be less tractable than I had ​expected."
+      c: "易驾驭的,温顺的"
+
+    113:
+      w: "abstract"
+      a: "adj, vt, none"
+      e: "not as a ​material ​object; short ​form of a ​speech; make conclusion; disturb"
+      c: "抽象,摘要,做总结,使分心"
+
+    114:
+      w: "contract"
+      a: "n,vt"
+      e: "a ​legal ​document that ​states and ​explains a ​formal ​agreement; to make or ​become ​shorter or ​narrower or ​smaller;"
+      s: "In ​spoken ​English, 'do not' often contracts to 'don't'."
+      c: "合同, 收缩"
+
+    115:
+      w: "detract"
+      a: "vt"
+      e: "to make something ​seem less ​valuable or less ​deserving of ​admiration"
+      s: "These ​small ​faults, ​however, do not detract from the ​overall ​quality of the ​book."
+      c: "贬值,降低价值"
+
+    116:
+      w: "distraught"
+      a: "adj"
+      e: "extremely ​worried, ​nervous, or ​upset"
+      s: "The ​missing child's distraught ​parents made an ​emotional ​appeal for ​information on TV."
+      c: "精神狂乱,极为疯狂"
+
+    117:
+      w: "distract"
+      a: "vt"
+      e: "to make someone ​stop giving ​their ​attention to something"
+      s: "Don't distract her from her study"
+      c: "使分心,焦虑"
+
+    118:
+      w: "extract"
+      a: "vt"
+      e: "to ​remove or take out something"
+      s: "They used to extract ​iron ​ore from this ​site."
+      c: "用力取出;盘问出信息"
+
+    119:
+      w: "protract"
+      a: "vt"
+      e: "made to last ​longer than ​necessary"
+      s: "have no ​desire to protract the ​process."
+      c: "延长,拖长"
+
+    120:
+      w: "retract"
+      a: "vi, vt"
+      e: "to ​pull something back or in; to take back an ​offer or ​statement or admit false"
+      s: "The ​wheels retract after the ​aircraft ​takes off; cat retract claws; retract an ​invitation/​confession/​promise"
+      c: "难以阻止的"
+
 #    39:
 #      w: "oration"
 #      a: "n"
