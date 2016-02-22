@@ -4,7 +4,7 @@
     <div class="card v-list-card" ng-repeat="list in lists" ng-click="goCards(list)">
       <div class="item item-text-wrap card-body color-{{$index % 7}}">
         <input type="text" ng-model="list.name">
-        <p>{{list.words}} words</p>
+        <p>{{list.tid - list.fid + 1}} words</p>
         <div class="info">
           <p><i class="icon ion-compose"></i> {{list.ftimes}}</p>
           <p><i class="icon ion-compass"></i> {{list.last}}</p>

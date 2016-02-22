@@ -156,7 +156,7 @@ do ->
       a: "v"
       e: "to ​publicly ​support or ​suggest an ​idea, ​development, or way of doing something"
       s: "She advocates taking a more ​long-term ​view. He advocates the ​return of ​capital ​punishment."
-      c: '代替品'
+      c: '主张'
 
 
     24:
@@ -199,7 +199,7 @@ do ->
       a: "vt"
       e: "to use a ​law in ​order to ​achieve something, or to ​mention something in ​order to ​explain something or to ​support ​your ​opinion or ​action"
       s: "Police can invoke the ​law to ​regulate ​access to these ​places."
-      c: ""
+      c: "乞灵，祈求; 提出或授引…以支持或证明; 召鬼; 借助"
 
     30:
       w: "provoke"
@@ -213,7 +213,7 @@ do ->
       a: "vt"
       e: "to say ​officially that an ​agreement, ​permission, a ​law, etc. is no ​longer in ​effect."
       s: "The ​authorities have revoked ​their ​original ​decision to ​allow ​development of this ​rural ​area."
-      c: ""
+      c: "撤销,取消,废除"
 
     32:
       w: "denounce"
@@ -227,7 +227,7 @@ do ->
       a: "vt"
       e: "to say ​formally or ​publicly that you no ​longer own, ​support, ​believe in, or have a ​connection with something"
       s: "Her ​ex-husband renounced his ​claim to the ​family ​house."
-      c: "真是放弃,宣布与...决裂"
+      c: "正式放弃,宣布与...决裂"
 
     34:
       w: "enunciate"

@@ -263,313 +263,198 @@ do ->
       s: "The ​wheels retract after the ​aircraft ​takes off; cat retract claws; retract an ​invitation/​confession/​promise"
       c: "难以阻止的"
 
-#    39:
-#      w: "oration"
-#      a: "n"
-#      e: "a ​formal ​public ​speech about a ​serious ​subject"
-#      c: "充满野心的演说"
-#
-#    40:
-#      w: "peroration"
-#      a: "n"
-#      e: "the last part of a speech, a long and dull speech"
-#      c: "致辞,结束语"
-#
-#    41:
-#      w: "fable"
-#      a: "n"
-#      e: "a ​short ​story that ​tells a ​general ​truth or is only ​partly ​based on ​fact, or ​literature of this ​type."
-#      s: "the fable of the ​tortoise and the ​hare"
-#      c: "寓言故事"
-#
-#    42:
-#      w: "fabulous"
-#      a: "adj"
-#      e: "very good, ​excellent"
-#      s: "She ​looked ​absolutely fabulous in her ​dress."
-#      c: "超棒的"
-#
-#    43:
-#      w: "affable"
-#      a: "adj"
-#      e: "​friendly and ​easy to ​talk to"
-#      s: "He ​struck me as an affable ​sort of a man."
-#      c: "温和的"
-#
-#    44:
-#      w: "ineffable"
-#      a: "adj"
-#      e: "causing so much ​emotion, ​especially ​pleasure, that it cannot be ​described"
-#      s: "ineffable ​joy/​beauty"
-#      c: "难以表达的愉悦"
-#
-#    45:
-#      w: "infamous"
-#      a: "adj"
-#      e: "famous for something ​considered ​bad"
-#      s: "The ​list ​included the infamous George Drake, a ​double ​murderer."
-#      c: "臭名昭著"
-#
-#    46:
-#      w: "preface"
-#      a: "n"
-#      e: "an ​introduction at the ​beginning of a ​book ​explaining ​its ​purpose, ​thanking ​people who ​helped the ​author"
-#      s: "In his preface, the ​author says that he took eight ​years to write the ​book."
-#      c: "序言"
-#
-#    47:
-#      w: "consonant"
-#      a: "n,adj"
-#      e: "one of the ​speech ​sounds or ​letters of the ​alphabet that is not a ​vowel. "
-#      c: "辅音,和谐"
-#
-#    48:
-#      w: "dissonance"
-#      a: "n"
-#      e: "a ​combination of ​sounds or ​musical ​notes that are not ​pleasant when ​heard together"
-#      s: "the ​jarring dissonance of Klein's ​musical ​score"
-#      c: "不和谐"
-#
-#    49:
-#      w: "resonant"
-#      a: "adj"
-#      e: "clear and ​loud, or ​causing ​sounds to be ​clear and ​loud"
-#      s: "a ​deep, resonant ​voice"
-#      c: "洪亮,共鸣"
-#
-#    50:
-#      w: "monotonous"
-#      a: "adj"
-#      e: "not ​changing and ​therefore ​boring"
-#      s: "a monotonous ​job"
-#      c: "单调,无聊"
-#
-#    51:
-#      w: "attune"
-#      a: "v"
-#      e: "to bring into harmony,to cause (a person, company, etc.) to have a better understanding of what is needed or wanted by a particular person or group"
-#      s: "he's finding it difficult to attune himself to the corporate culture"
-#      c: "使协调"
-#
-#    52:
-#      w: "cacophony"
-#      a: "n"
-#      e: "an ​unpleasant ​mixture of ​loud ​sounds"
-#      s: "What a cacophony!"
-#      c: "刺耳的声音"
-#
-#    53:
-#      w: "euphonious"
-#      a: "adj"
-#      e: "having a ​pleasant ​sound"
-#      c: "悦耳的"
-#
-#    54:
-#      w: "avowal"
-#      a: "n"
-#      e: "a ​statement in which you say or ​admit something that you ​believe, ​support, or ​intend to do."
-#      s: "Her ​public avowals to ​reduce ​crime have ​yet to be put into ​effect."
-#      c: "公开宣布，承认"
-#
-#    55:
-#      w: "disavow"
-#      a: "vt"
-#      e: "to say that you ​know nothing about something, or that you have no ​responsibility for or ​connection with something."
-#      s: "They were ​quick to disavow the ​rumour."
-#      c: "拒绝承认"
-#
-#    56:
-#      w: "claim"
-#      a: "vt"
-#      e: "SAY: to say that something is ​true or is a ​fact, ​although you cannot ​prove it and other ​people might not ​believe it. DEMAND"
-#      s: "claim damages; The ​company claims (that) it is not ​responsible for the ​pollution in the ​river."
-#      c: "宣称, 声明权利"
-#
-#    57:
-#      w: "clamor"
-#      a: "vi, n"
-#      e: "to make a ​loud ​complaint or ​demand; a ​loud ​complaint or ​demand; ​loud ​noise, esp. made by people’s ​voices"
-#      s: "The ​audience clamored for an ​encore."
-#      c: "喧哗,噪音"
-#
-#    58:
-#      w: "acclaim"
-#      a: "n,vt"
-#      e: "​public ​approval and ​praise"
-#      s: "She is being acclaimed as the ​greatest ​dancer of her ​generation."
-#      c: "公开称赞"
-#
-#    59:
-#     w: "proclaim"
-#     a: "vt"
-#     e: "to ​announce something ​publicly or ​officially, ​especially something ​positive"
-#     s: "All the ​countries have proclaimed ​their ​loyalty to the ​alliance."
-#     c: "公开宣布"
-#
-#    60:
-#      w: "countermand"
-#      a: "vt"
-#      e: "to ​change an ​order that has already been given, ​especially by giving a new ​order"
-#      c: "撤销"
-#
-#    61:
-#      w: "mandatory"
-#      a: "adj"
-#      e: "Something that is mandatory must be done, or is ​demanded by ​law"
-#      s: "The ​minister is ​calling for mandatory ​prison ​sentences for ​people who ​assault ​police ​officers."
-#      c: "强制的"
-#
-#    62:
-#      w: "demanding"
-#      a: "adj"
-#      e: "needing a lot of ​time, ​attention, or ​energy:"
-#      s: "She's a very demanding ​child."
-#      c: "要求多的,难搞"
-#    63:
-#      w: "subordinate"
-#      a: "adj,n,vt"
-#      e: "having a (or to put somthing into) ​lower or less ​important ​position"
-#      s: "a subordinate ​role; He ​left the ​routine ​checks to one of his subordinates."
-#      c: "下属,征服,下级的"
-#
-#    64:
-#      w: "insubordinate"
-#      a: "adj"
-#      e: "not ​willing to ​obey ​orders from ​people in ​authority, or ​showing that you are not ​willing to ​obey ​orders"
-#      s: "an insubordinate ​child"
-#      c: "不服从权威,不听话"
-#
-#    65:
-#      w: "primordial"
-#      a: "adj"
-#      e: "​existing at or since the ​beginning of the ​world or the ​universe"
-#      s: "The ​planet ​Jupiter ​contains ​large ​amounts of the primordial ​gas and ​dust out of which the ​solar ​system was ​formed."
-#      c: "最初的,最原始的"
-#
-#    66:
-#      w: "disenchant"
-#      a: "adj"
-#      e: "no ​longer ​believing in the ​value of something, ​especially having ​learned of the ​problems with it"
-#      s: "Many ​voters have ​become disenchanted with the ​president."
-#      c: "使清醒"
-#
-#    67:
-#      w: "incantation"
-#      a: "n"
-#      e: "words that are ​believed to have a ​magical ​effect when ​spoken or ​sung"
-#      s: "Around the ​fire, ​tribal ​elders ​chanted incantations"
-#      c: "咒语"
-#
-#    68:
-#      w: "recant"
-#      a: "vt"
-#      e: "to ​announce in ​public that ​your past ​beliefs or ​statements were ​wrong and that you no ​longer ​agree with them"
-#      s: "After a ​year ​spent in ​solitary ​confinement, he ​publicly recanted."
-#      c: "撤回"
-#
-#    69:
-#      w: "incentive"
-#      a: "n"
-#      e: "something that ​encourages a ​person to do something"
-#      s: "Tax incentives have been very ​effective in ​encouraging ​people to ​save and ​invest more of ​their ​income."
-#      c: "刺激"
-#
-#    70:
-#      w: "doctrinaire"
-#      a: "adj"
-#      e: "based on and ​following ​fixed ​beliefs ​rather than ​considering ​practical ​problems"
-#      s: "He has a ​somewhat doctrinaire ​approach to ​running the ​company."
-#      c: "照本宣科的"
-#
-#    71:
-#      w: "indoctrinate"
-#      a: "adj"
-#      e: "to often ​repeat an ​idea or ​belief to someone in ​order to ​persuade them to ​accept it"
-#      s: "Some ​parents were ​critical of ​attempts to indoctrinate ​children in ​green ​ideology."
-#      c: "灌输"
-#
-#    72:
-#      w: "heterodox"
-#      a: "adj"
-#      e: "different to and ​opposing ​generally ​accepted ​beliefs or ​standard"
-#      s: "His ​opinions have always been ​distinctly heterodox."
-#      c: "非传统的"
-#
-#    73:
-#      w: "orthodox"
-#      a: "adj"
-#      e: "​considered ​traditional, ​normal, and ​acceptable by most ​people"
-#      s: ""
-#      c: "传统的"
-#
-#    73:
-#      w: "paradox"
-#      a: "n"
-#      e: "a ​situation or ​statement that ​seems ​impossible or is ​difficult to ​understand because it ​contains two ​opposite ​facts or ​characteristics."
-#      s: "It's a ​curious paradox that ​drinking a lot of ​water can often make you ​feel ​thirsty."
-#      c: "悖论"
-#
-#    74:
-#      w: "vindictive"
-#      a: "adj"
-#      e: "having or ​showing a ​wish to ​harm someone because you ​think that they ​harmed you; ​unwilling to ​forgive"
-#      s: "In the ​movie 'Cape Fear', a lawyer's ​family is ​threatened by a vindictive ​former ​prisoner."
-#      c: "有复仇倾向的"
-#
-#    75:
-#      w: "decry"
-#      a: "vt"
-#      e: "to ​criticize something as ​bad, without ​value, or ​unnecessary"
-#      s: "Lawyers decried the ​imprisonment of several ​journalists."
-#      c: "强烈反对,否定"
-#
-#    76:
-#      w: "prophetic"
-#      a: "adj"
-#      e: "saying ​correctly what will ​happen in the ​future"
-#      s: "Much of Orwell's writing now ​seems ​grimly prophetic."
-#      c: "预言的"
-#
-#    77:
-#      w: "euphemism"
-#      a: "n"
-#      e: "a word or phrase used to ​avoid saying an ​unpleasant or ​offensive word"
-#      s: "'Senior ​citizen' is a euphemism for 'old ​person'."
-#      c: "委婉的说辞"
-#
-#    78:
-#      w: "sound"
-#      a: "adj"
-#      e: "not ​broken or ​damaged; ​healthy; in good ​condition"
-#      s: "It's an ​old ​building but it's still ​structurally sound."
-#      c: "强壮,健全的"
-#
-#    79:
-#      w: "absurd"
-#      a: "adj"
-#      e: "stupid and ​unreasonable, or ​silly in a ​humorous way"
-#      s: "What an absurd thing to say! Don't be so absurd! Of ​course I ​want you to come."
-#      c: "荒诞不合情理的"
-#
-#    80:
-#      w: "atone"
-#      a: "vi"
-#      e: "to do something that ​shows you are ​sorry for something ​bad that you did or for something that you ​failed to do"
-#      s: "The ​director of the ​company has ​expressed a ​wish to atone for her past ​sins."
-#      c: "弥补赎罪"
-#
-#    81:
-#      w: "ordeal"
-#      a: "n"
-#      e: "a very ​unpleasant and ​painful or ​difficult ​experience."
-#      s: "The ​hostages' ordeal came to an end when ​soldiers ​stormed the ​building."
-#      c: "严峻的考研"
-#
-#    82:
-#      w: "decant"
-#      a: "vt"
-#      e: "to ​pour a ​liquid from one ​container into another"
-#      c: "缓缓倒出"
+    121:
+      w: "tendentious"
+      a: "adj"
+      e: "​expressing or ​supporting a ​particular ​opinion that many other ​people ​disagree with"
+      c: "有偏见的"
+
+    122:
+      w: "contend"
+      a: "vi,vt"
+      e: "to ​compete in ​order to ​win something;  to say that something is ​true or is a ​fact"
+      s: "There are three ​world-class ​tennis ​players contending for this ​title; The ​lawyer contended (that).."
+      c: "竞争,声称"
+
+    123:
+      w: "contentious"
+      a: "adj"
+      e: "causing or ​likely to ​cause ​disagreement."
+      s: "a contentious ​decision/​policy/​issue/​subject"
+      c: "引起争论的,受争议的"
+
+    124:
+      w: "distend"
+      a: "vi"
+      e: "to ​swell and ​become ​large (as if) by ​pressure from inside"
+      s: "In the ​refugee ​centres we ​saw many ​children whose ​stomachs were distended because of ​lack of ​food."
+      c: "膨胀,使膨胀"
+
+    125:
+      w: "intensify"
+      a: "vt"
+      e: "to ​become ​greater, more ​serious, or more ​extreme, or to make something do this"
+      s: "Fighting around the ​capital has intensified in the last few ​hours."
+      c: "激化"
+
+    126:
+      w: "pretense"
+      a: "n"
+      e: "a way of ​behaving that is ​intended to ​deceive ​people"
+      s: "You can't keep up the pretense any longer."
+      c: "虚伪,假装,自大,优越感"
+
+    127:
+      w: "unpretentious"
+      a: "adj"
+      e: "simple and/or ​sincere; not ​pretentious"
+      s: "The ​food is ​delicious and unpretentious."
+      c: "低调,谦逊,坦诚,自然"
+
+    128:
+      w: "ostensible"
+      a: "adj"
+      e: "appearing or ​claiming to be one thing when it is really something ​else"
+      s: "Their ostensible ​goal was to ​clean up ​government ​corruption, but ​their ​real ​aim was to ​unseat the ​government."
+      c: "表面上的,洋装的"
+
+    129:
+      w: "ostentatious"
+      a: "adj"
+      e: "too ​obviously ​showing ​your ​money, possessions, or ​power, in an ​attempt to make other ​people ​notice and ​admire you"
+      s: "They ​criticized the ostentatious ​lifestyle of ​their ​leaders; an ostentatious ​gesture/​manner"
+      c: "炫耀,卖弄的"
+
+    130:
+      w: "portentous"
+      a: "adj"
+      e: "too ​serious and ​trying to be very ​important; important because they show that something ​unpleasant is very ​likely to ​happen"
+      s: "The ​report ​contains ​numerous portentous ​references to a ​future ​environmental ​calamity."
+      c: "预兆性,凶兆的,勾起兴趣,令人遐想的"
+
+    131:
+      w: "tenuous"
+      a: "adj"
+      e: "A tenuous ​connection, ​idea, or ​situation is ​weak and ​possibly does not ​exist"
+      s: "The ​police have only ​found a tenuous ​connection between the two ​robberies."
+      c: "没有实际意义的,空洞的"
+
+    132:
+      w: "attenuate"
+      a: "vt"
+      e: "to make something ​smaller, ​thinner, or ​weaker"
+      s: "Radiation from the ​sun is attenuated by the earth's ​atmosphere."
+      c: "减弱,降低(数量,力量,价值)"
+
+    133:
+      w: "extenuate"
+      a: "vt"
+      e: "to ​cause a ​wrong ​act to be ​judged less ​seriously by giving ​reasons for it"
+      s: "She was ​found ​guilty of ​theft, but because of extenuating ​circumstances (= a ​situation which made her ​crime ​seem less ​serious) was not ​sent to ​prison."
+      c: "减轻罪过"
+
+    134:
+      w: "abstain"
+      a: "vi"
+      e: "to not do something, ​especially something ​enjoyable that you ​think might be ​bad"
+      s: "He took a ​vow to abstain from ​alcohol/​smoking/​sex."
+      c: "主动克制"
+
+    135:
+      w: "detain"
+      a: "vt"
+      e: "to ​force someone ​officially to ​stay in a ​place; to ​delay someone for a ​short ​length of ​time"
+      s: "Several of the ​injured were detained ​overnight in ​hospital."
+      c: "拘留,扣留"
+
+    136:
+      w: "pertain"
+      a: "vi"
+      e: "to ​relate to or have a ​connection with something"
+      c: "有关联"
+
+    137:
+      w: "retainer"
+      a: "n"
+      e: "a ​servant who has usually been with the same ​family for a ​long ​time; "
+      s: "a ​faithful ​old retainer"
+      c: "家仆, 保证金"
+
+    138:
+      w: "content"
+      a: "n, adj, vt"
+      e: "pleased with ​your ​situation; to make someone ​feel ​happy and ​satisfied"
+      s: "He ​seems ​fairly content with (his) ​life. You're ​quite ​easily contented, aren't you?"
+      c: "满足的, 使满足, 目录"
+
+    139:
+      w: "malcontent"
+      a: "n"
+      e: "a person who is not ​satisfied with the way things are, and who ​complains a lot and is ​unreasonable and ​difficult to ​deal with"
+      c: "不满分子"
+
+    140:
+      w: "countenance"
+      a: "n, vt"
+      e: "the ​appearance or ​expression of someone's ​face; to ​find an ​activity ​acceptable; to ​approve of or give ​support to something"
+      s: "This ​school will not countenance ​lateness; Her countenance ​masked her ​feelings."
+      c: "脸,面孔,赞同,支持, 表示赞同"
+
+    141:
+     w: "retentive"
+     a: "adj"
+     e: "If you have a retentive ​memory or ​brain, you can ​remember things ​easily."
+     c: "记性好的"
+
+    142:
+      w: "tenable"
+      a: "vt"
+      e: "able to be ​defended ​successfully or ​held for a ​particular ​period of ​time"
+      s: "His ​theory is no ​longer tenable in the ​light of the ​recent ​discoveries."
+      c: "站得住脚的, 有依据的, 无懈可击的"
+
+    143:
+      w: "untenable"
+      a: "adj"
+      e: "cannot be ​supported or ​defended against ​criticism; "
+      s: "If three ​people in four no ​longer ​support the ​government, isn't this an untenable ​situation?"
+      c: "站不住脚的"
+
+    144:
+      w: "tenacious"
+      a: "adj"
+      e: "holding ​tightly onto something, or ​keeping an ​opinion in a ​determined way"
+      s: "The ​baby took my ​finger in ​its tenacious little ​fist."
+      c: "顽固的,不屈不挠的"
+
+    145:
+      w: "pertinent"
+      a: "adj"
+      e: "​relating ​directly to the ​subject being ​considered"
+      s: "a pertinent ​question/​remark"
+      c: "相关的,恰当的"
+
+    146:
+      w: "impertinent"
+      a: "adj"
+      e: "rude and not ​showing ​respect, ​especially towards someone ​older or in a ​higher ​position than you"
+      s: "I ​hope he didn't ​think I was being impertinent when I ​asked him about his ​private ​life; an impertinent ​remark/​question"
+      c: "粗鲁的, 无关紧要"
+
+    147:
+      w: "pertinacious"
+      a: "adj"
+      e: "very ​determined and ​refusing to be ​defeated by ​problems"
+      s: "Like most ​successful ​politicians, she is pertinacious and ​single-minded in the ​pursuit of her ​goals."
+      c: "坚韧不拔的,顽固坚持的"
+
+    148:
+      w: "retinue"
+      a: "adj"
+      e: "a ​group of ​people who ​travel with an ​important ​person to ​help them"
+      s: "The ​president ​travels with a ​large retinue of ​aides and ​bodyguards."
+      c: "随行人员"
+
 
   angular.extend(wordDB, list_2)
 
